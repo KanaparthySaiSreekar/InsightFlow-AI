@@ -1,0 +1,38 @@
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# DuckDB for OLAP queries
+duckdb==0.10.0
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+bcrypt==4.1.2
+
+# LLM Integration
+langchain==0.1.5
+langchain-openai==0.0.5
+langchain-google-genai==0.0.6
+langchain-anthropic==0.0.2
+openai==1.10.0
+
+# Data Processing
+pandas==2.2.0
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# Security & Encryption
+cryptography==42.0.1
+
+# Utilities
+python-dotenv==1.0.0
+aiofiles==23.2.1
